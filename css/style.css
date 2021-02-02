@@ -1,0 +1,46 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+  font-family: 'Press Start 2P', cursive;
+  color: white;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+body {
+  background: url(img/pokemon-1593048_1920.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+button {
+  border: 2px solid red;
+  padding: 10px;
+  border-radius: 5px;
+  color: black;
+}
+
+input {
+  padding: 10px;
+  border-radius: 5px;
+  color: black;
+}
+
+
+div {
+  margin-left: 20px;
+}
+
+h1 {
+  padding-bottom: 50px;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
