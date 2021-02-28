@@ -7,17 +7,21 @@
   box-sizing: border-box;
   font-family: 'Press Start 2P', cursive;
   color: white;
+
+
+}
+
+html {
+  background: url(img/pokemon-1593048_1920.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 /******************************************
 /* LAYOUT
 /*******************************************/
-
-body {
-  background: url(img/pokemon-1593048_1920.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-}
 
 button {
   border: 2px solid red;
@@ -33,12 +37,36 @@ input {
 }
 
 
-div {
+.container {
   margin-left: 20px;
+}
+
+.inputs {
+  margin-top: 25px;
+}
+
+a {
+  color: yellow;
 }
 
 h1 {
   padding-bottom: 50px;
+  color: yellow;
+}
+
+h2 {
+  margin-top: 30px;
+  color: yellow;
+}
+
+img {
+  height: 200px;
+  width: 200px;
+}
+
+.official_artwork {
+  height: 500px;
+  width: 500px;
 }
 
 /******************************************
